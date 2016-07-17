@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>overflow</title>
+    <style type="text/css">
+        body{
+            overflow-x:auto;/*对x轴超出部分的处理*/
+            overflow-y:scroll;/*对y轴超出部分的处理*/
+        }
+        div{
+            width: 500px;
+            height: 400px;
+            border:2px solid black;
+            overflow: visible;/*内容超出部分：可见*/
+            overflow: hidden;/*内容超出部分：隐藏*/
+            overflow: auto;/*内容超出时加上滚动条，不超出不处理*/
+            overflow: scroll;/*直接加上滚动条*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eius iure repudiandae dicta consequuntur necessitatibus. Aspernatur provident ducimus, earum hic natus, unde delectus magnam sequi consectetur, ipsa quae alias doloribus est, impedit dignissimos qui eligendi soluta quidem laborum. Ex sequi maxime, numquam, autem rem debitis saepe fugit ea necessitatibus sed id excepturi, animi ratione provident molestiae. Neque tempore ducimus soluta error illo, saepe tenetur quaerat unde possimus, quidem sequi mollitia. Expedita soluta totam nesciunt, maxime veniam rem praesentium reprehenderit aspernatur molestiae aliquid. Sed fuga est incidunt reprehenderit expedita sunt earum, optio dicta. Possimus, nihil, dicta. Asperiores mollitia, maiores laborum aliquid doloremque praesentium numquam eius tempora, consequatur eaque reiciendis fuga impedit et non, inventore quaerat minus quisquam vitae magnam nam quae totam quia voluptatibus? Vel a dolorem perspiciatis esse at, nesciunt ipsam, voluptas vero eveniet porro unde optio tempora enim quam eum molestias doloribus odio praesentium officiis qui quis reiciendis? Excepturi dignissimos, quas. Quae libero adipisci mollitia vero expedita perspiciatis, quos a porro et id corporis. Vero dignissimos ab sed repellat, iure debitis tempora perspiciatis. Et deserunt vitae laudantium harum praesentium, doloremque molestias nobis, ducimus voluptates obcaecati sapiente quia, quas quam eius omnis modi architecto reprehenderit. Odit tenetur possimus libero deserunt!</span>
+    </div>
+</body>
+</html>

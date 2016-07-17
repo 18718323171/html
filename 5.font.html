@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>字体缩写</title>
+    <style type="text/css">
+        #p{
+            /*font:italic bold 20px "宋体";*/
+            /*font:bold italic 20px "宋体";*/
+            /*1.不能把font-style和font-weight放到font-size后面
+              2.至少要设置字号和字体
+              3.字号/行高 字体
+            */
+            font: 20px "微软雅黑";
+            font: 20px/2 "微软雅黑";/*必须加上字体*/
+        }
+    </style>
+</head>
+<body>
+    <p id="p">你好，世界！Lorem ipsum dolor sit amet.</p>
+    <p>你好，世界！Lorem ipsum dolor sit amet.</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        .b{
+            float:left;
+            list-style:none;
+            text-align: center;
+            position:relative;
+        }
+
+        #set-nav{
+            list-style: none;
+
+        }
+        #header{
+            
+        }
+        #set-nav li{
+            margin:2px auto;
+            background-color: red;
+        }
+        #set-nav{
+            position:absolute;
+            top: 50px;
+            left:50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+
+    <div id="main"></div>
+
+    <div id="footer"></div>
+    <ul id="a">
+        <li class="b">123</li>
+        <li class="b">456
+            <ul id="set-nav">
+                <li class="setli">搜索设置</li>
+                <li class="setli">高级搜索</li>
+                <li class="setli">关闭预测</li>
+                <li class="setli">搜索历史</li>
+            </ul>
+        </li>
+    </ul>
+    
+</body>
+</html>

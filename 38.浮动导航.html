@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>浮动导航</title>
+    <style type="text/css">
+        body{
+            font-family: "microsoft yahei";
+        }
+        ul{
+            padding: 10px 50px;
+            background-color: #F1F1F1;
+            overflow: hidden;/*清除浮动影响*/
+        }
+        li{
+            text-align: center;
+            font-size: 14px;
+            width: 120px;
+            list-style: none;
+            float: left;
+            color: #BABABA;
+        }
+        li .active{
+            color: #000;
+        }
+        li:hover{
+            color: #000;
+            cursor: pointer;/*修改鼠标图案*/
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="active">Developer</li>
+        <li>Discover</li>
+        <li>Design</li>
+        <li>Develop</li>
+        <li>Distribute</li>
+    </ul>
+</body>
+</html>

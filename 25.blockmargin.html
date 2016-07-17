@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>块标签的居中</title>
+    <style type="text/css">
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: palevioletred;
+        }
+        #box{
+            background-color: lightcyan;
+            /*margin 居中*/
+            /*1.标签必须为块标签 2.设置了宽度*/
+            margin: 0 auto;
+        }
+        img{
+            display: block;/*设置为块标签*/
+            margin:0 auto; 
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <div></div>
+    <img src="img/1.jpg"  width="250" alt="" />
+</body>
+</html>

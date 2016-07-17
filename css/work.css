@@ -1,0 +1,52 @@
+
+body{
+    height: 2500px;
+    margin: 0;
+    padding: 0;
+    background: url(../img/background.jpg) no-repeat;
+    /*设置背景跟随滚动*/
+    background-attachment: fixed;
+    padding-left: 80px;
+}
+#main{
+    padding-top: 50px;
+}
+#btn{
+    text-align: right;
+    padding-right: 10px;
+    margin:10px 0;
+}
+h1,h2{
+    color:#005A9C;
+    font-weight: normal;
+    margin: 12px 0;
+}
+dt{
+    font-weight: bold;
+}
+.i{
+    font-style: italic;
+}
+.f12{
+    font-size: 12px;
+}
+.u{
+    text-decoration: underline;
+}
+.cblue{
+    color:blue;
+}
+.corange{
+    color:#D93B00;
+    font-size: 14px;
+}
+.b{
+    font-weight: bold;
+}
+.uli li{
+    margin:10px 0;
+}
+ol li{
+    list-style: none;
+    color:#0000CC;
+}
